@@ -17,6 +17,8 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="project2.js"></script>
     <title>Syed Ahmad Zaki</title>
   </head>
 
@@ -104,30 +106,232 @@
 
     <!--Start belah bawah-->
     <body class="bg-black">
-      <div class="container py-5 d-flex align-items-center">
-        <div class="row hero-section">
+      <div class="container my-5 d-flex align-items-center">
+        <div class="row hero-section rowo">
           <div class="col-lg-6 py-3 d-flex flex-column align-items-center">
-            <p class="text-light fw-bold display-4">Hey There, It's Zaki!</p>
+            <p class="text-light fw-bold display-4">Hi, I'm Zaki</p>
             <p class="text-light fs-5">
-              Greet your junior software engineer with a treat! I create, I
-              clean code, I debug, I query and I do hope to get a chance to grow
-              with your company.
+              A computer science and control system fresh graduate from Moscow Aviation Institute with a great understanding in programming for embedded systems and can't stop tinkering!
             </p>
-            <a href="#" class="btn btn-light rounded-pill">Hire Me</a>
+            <a href="#education" class="btn btn-light rounded-pill">Get to know me</a>
           </div>
-          <div class="col-lg-6 py-3 d-flex justify-content-center dp-container hero-img">
-            <img src="dpzaki.jpg" alt="My picture!" class="hero-img " />
+          <div class="col-lg-6 py-3 d-flex justify-content-center dp-container hero-img ">
+            <img src="dpzaki.jpg" alt="My picture!" class="hero-img rounded-4" />
           </div>
         </div>
       </div>
 
 
       <!--second page-->
-      <div class="row bg-light">
-        <div class="col px-5 py-2">
-          <p class="display-3">Education</p>
-        </div>
+      <div class="row rowo bg-white mb-4" >    
+        <div class="display-3 text-dark text-center fw-bold p-1 mb-0 pb-0" id="education">Education</div>   
+                    
+        <div id="carouselExampleCaptions" class="carousel slide mt-0 pt-0">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="mai.jpg" class="d-block w-100 gambor-slider" alt="gambar1">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="fw-bold text-primary">Moscow Aviation Institute</h1>
+                <p class="mb-0 text-white">(National Research University)</p>
+                <p class="fw-lighter py-0 my-0 text-white">2021-2024</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="SAVE_20240205_233601.jpg" class="d-block w-100 gambor-slider" alt="me in russia">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>June 2021 - July 2024</h5>
+                <p>Course: Computer Science and Control System Engineering</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="IMG_7024.JPG" class="d-block w-100 gambor-slider" alt="grad">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Graduated July 2024</h5>
+                <p>Bachelor's Degree</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
       </div>
+
+      <!-- Third page: Experiences -->
+      <div class="row py-0 my-0 justify-content-around">
+        <div class="display-3 text-white fw-bold pb-4">Experiences</div>
+
+        <!-- first card -->
+        <div class="card mb-3" style="width: 18rem;">
+          <img src="rubberducky.jpeg" class="card-img-top pt-2" alt="rubberducky">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Project Rubber Ducky</h5>
+            <p class="card-text">Create a rubber-ducky drive (bad USB) using raspberry pi pico microcontroller and ran different
+              payloads to understand how raspberry pi works.</p>
+            <a href="https://youtu.be/e_f9p-_JWZw?si=hNPlV_jc-9YFjppx" target="_blank" class="btn btn-primary">Project Reference</a>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="card mb-3" style="width: 18rem;">
+          <img src="tictactoefull.jpeg" class="card-img-top pt-2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Project Tic-Tac-Toe</h5>
+            <p class="card-text">Developed an interactive Tic-Tac-Toe game using JavaScript in VS Code, effectively translating my
+              thought process into efficient programming solutions.</p>
+            <a href="https://github.com/SAZaki17/Tictactoe" target="_blank" class="btn btn-primary">Project Details</a>
+          </div>
+        </div>
+        <!-- third card -->
+        <div class="card mb-3" style="width: 18rem;">
+          <img src="platform_img.jpg" class="card-img-top pt-2" alt="smart emergency landing platform">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Smart Emergency Landing Platform</h5>
+            <p class="card-text">Create a model of an intellectual landing platform by using Arduino platform coordinating the use of
+              multiple sensors (gyroscope, ultrasonic, radio transmitter) which is acknowledged and graded with
+              distinction by 5 aviation expert panels from Moscow Aviation Institute.</p>
+            <a href="https://github.com/SAZaki17/Smart-Emergency-Landing-Platform-Arduino" target="_blank" class="btn btn-primary">Project Details</a>
+          </div>
+        </div>
+        <!-- fourth card -->
+        <div class="card mb-3" style="width: 18rem;">
+          <img src="db.png" class="card-img-top pt-2" alt="shopee database">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Create an Ecommerce Database</h5>
+            <p class="card-text">Created a relational database management system to mimick an ecommerce website (Shopee) using SQLite.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <!-- fifth card -->
+        <div class="card mb-3 pt-2" style="width: 18rem;">
+          <img src="amiraimangrad.JPG" class="card-img-top" alt="grad pics">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Freelance Photographer</h5>
+            <p class="card-text">Became a freelance photographer for minor events to earn, communicate and gain new skills.</p>
+            <a href="https://www.instagram.com/saz_vu.jpg/" target="_blank" class="btn btn-primary">Checkout my photos</a>
+          </div>        
+      </div>
+
+
+      <!-- start about skills -->
+
+      <div class="row bg-dark p-3">
+        <p class="fw-bold display-3 text-white" id="Skills">Skills</p>
+        <div class="accordion accordion-flush custom-accordion" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                JavaScript
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Finished a module on JavaScript by TalentLabs and done a project named Tic-Tac-Toe.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                HTML/CSS
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Created this portfolio website by finishing a HTML & CSS module by TalentLabs.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                MATLAB
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Done labs to study the dynamics of flights control system at Moscow Aviation Institute.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Arduino IDE(Arduino C++)
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Learn a tons about sensors and microcontroller and done a few projects such as an intelligent landing platform for airplanes.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                MySQL/SQLite
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Learn about how to manage, query and create a database from scratch by following TalentLabs module and youtube Tutorials.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Linux
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Use Kali Linux to familiarise with commandlines and understands different OS as I am already familiar with both Windows and Mac OS.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                Proteus Simulation
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Draw electrical schematic diagrams and simulate a real-life situation for course works at Moscow Aviation Institute.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                Adobe Photoshop & Lightroom
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Mastered using Lightroom and photoshop to run a small self business of event photography and photo printing services.</div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+    
+    <!-- Start for reference -->
+
+    <div class="row bg-light p-3">
+      <p class="fw-bold display-3 mb-5" id="Skills">References</p>
+      <div class="col text-center">
+        <img src="sir_simonov.jpeg" alt="Lecturer/Supervisor" class="rounded-circle">
+        <p class="text-center display-6 fw-bold text-primary">Simonov Vladimir Lvovich</p>
+        <p class="text-muted display-7">Lecturer Moscow Aviation Institute</p>
+        <p class="text-muted display-7">+79161095175</p>
+      </div>
+      <div class="col text-center">
+        <img src="encik-umair.png" alt="Encik Umair" class="rounded-circle bolat">
+        <p class="text-center display-6 fw-bold text-primary">Mohammad Umair Roshidi</p>
+        <p class="text-muted display-7">First Secretary - Embassy of Malaysia, Moscow</p>
+        <p class="text-muted display-7">+79035666101</p>
+      </div>
+    </div> <!-- div for row -->
+    
+    
+
+      
     </body>
   </html>            
           

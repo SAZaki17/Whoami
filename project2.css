@@ -56,7 +56,8 @@
 .hero-section {
   align-items: center;
 }
-.row {
+
+.rowo {
   height: 100vh;
 }
 
@@ -75,8 +76,76 @@
   object-fit: cover;
 }
 
+.gambor-slider {
+  object-fit: cover;
+  max-height: 90vh;
+  object-position: bottom;
+}
+
+.skill-drop {
+  width: 150px;
+}
+
 @media (max-width: 576px) {
   .hero-img {
     height: 30vh;
   }
+}
+
+.accordion-button {
+  background-color: #333;
+  color: white;
+  border-color: #555;
+}
+
+.accordion-button:hover {
+  background-color: #444;
+  color: white;
+  border-color: #555;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #555;
+  color: white;
+  border-color: #666;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  color: black;
+}
+
+.accordion-item {
+  border-color: #444;
+}
+
+.custom-accordion .accordion-item {
+  border: 2px solid rgb(255, 184, 0);
+  margin-bottom: 10px;
+}
+
+.custom-accordion .accordian-button {
+  border: 1px solid rgb(216, 155, 0);
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  border-bottom: 2px solid rgb(216, 155, 0);
+}
+
+.custom-accordion .accordion-button:focus {
+  box-shadow: none;
+  border: 2px solid rgb(255, 184, 0);
+}
+
+.bolat {
+  height: 200px;
+  width: 200px;
+}
+
+.display-7 {
+  font-size: 1.5rem;
 }
